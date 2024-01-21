@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+#container > div {
+  border: 2px solid black;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+}
